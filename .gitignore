@@ -1,0 +1,9 @@
+﻿.env
+.env.*
+.venv/
+.venv-gemini/
+__pycache__/
+*.pyc
+ai agent openai keys.txt
+*keys*.txt
+Bricks4Agent/
