@@ -1,0 +1,47 @@
+# ── 環境變數 / 機密 ──────────────────────────
+.env
+.env.local
+*.pem
+*.key
+
+# ── Python ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ── 虛擬環境 ────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ── 測試 / 工具快取 ─────────────────────────
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── 打包 ────────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ── IDE / 系統 ──────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── 資料 / 輸出 ─────────────────────────────
+*.log
+*.csv
+*.parquet
+data/
+output/
